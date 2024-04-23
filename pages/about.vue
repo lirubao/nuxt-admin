@@ -1,5 +1,18 @@
 <template>
-    <section>
-        <p>This page will be displayed at the /about route.</p>
-    </section>
+    <div>
+        <h2>About</h2>
+        <p>Pages represent views for each specific route pattern. Every file in the pages/ directory represents a
+            different route displaying its content.</p>
+    </div>
 </template>
+
+<style>
+h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+p {
+    margin: 20px 0;
+}
+</style>

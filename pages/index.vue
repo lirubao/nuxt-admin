@@ -1,8 +1,18 @@
 <template>
     <div>
-        <h1>Welcome to the homepage</h1>
-        <AppAlert>
-            This is an auto-imported component
-        </AppAlert>
+        <h2>Home</h2>
+        <p>Pages represent views for each specific route pattern. Every file in the pages/ directory represents a
+            different route displaying its content.</p>
     </div>
 </template>
+
+<style>
+h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+p {
+    margin: 20px 0;
+}
+</style>
