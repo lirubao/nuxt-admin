@@ -14,7 +14,6 @@
                         <NuxtLink to="/products">Products</NuxtLink>
                     </li>
                 </ul>
-                <a href="/about">normal link -- about page</a>
             </nav>
         </header>
 
@@ -28,4 +27,8 @@
 
 </script>
 
-<style scoped></style>
+<style scoped>
+.router-link-exact-active {
+    color: #12b488;
+}
+</style>
