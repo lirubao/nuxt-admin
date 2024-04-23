@@ -1,5 +1,6 @@
 <template>
     <div>
+
         <h2>Home</h2>
         <p>Pages represent views for each specific route pattern. Every file in the pages/ directory represents a
             different route displaying its content.</p>
