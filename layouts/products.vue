@@ -22,7 +22,6 @@
                     <NuxtLink to="/products">Products</NuxtLink>
                 </li>
             </ul>
-            <a href="/about">normal link -- about page</a>
         </footer>
     </div>
 </template>
