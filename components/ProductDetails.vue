@@ -20,6 +20,13 @@
 
 <script setup lang="ts">
 const { product } = defineProps(['product'])
+
+useHead({
+    title: product.title + " - Nuxt Dojo",
+    meta: [
+        { name: "description", content: product.description }
+    ]
+})
 </script>
 
 <style scoped>
